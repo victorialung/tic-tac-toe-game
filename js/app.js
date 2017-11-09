@@ -16,4 +16,7 @@ window.onload = function(){
                 centinel=!centinel;
             }
         }
-    }
+
+    var buttonReset = document.querySelector(".game-element");
+    buttonReset.parentNode.removeChild(buttonReset);
+}
