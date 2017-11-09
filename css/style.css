@@ -1,0 +1,24 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.board{
+    margin:100px auto 0;
+    border-collapse: collapse;
+}
+
+.board td{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.board td:hover{
+    background-color: gray;
+}
