@@ -16,7 +16,16 @@ window.onload = function(){
                 centinel=!centinel;
             }
         }
+    }
 
+    function eliminar(elemento){
+
+        var id=elemento.parentNode.getAttribute("id");
+        node=document.getElementById(id);
+        node.parentNode.removeChild(node);
+    }
+/*
     var buttonReset = document.querySelector(".game-element");
     buttonReset.parentNode.removeChild(buttonReset);
-}
+
+*/
