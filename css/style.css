@@ -25,9 +25,13 @@ box-sizing: border-box;
 
 /*button-reset*/
 .button-reset{
-    display: table;
-    font-size: 1.5em;
-    background-color: rgb(223, 185, 211);
+    display: block;
     margin: 25px auto;
+    font-size: 1.5em;
+    background-color: #53E87E;
+    border:none;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
 }
 
