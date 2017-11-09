@@ -24,6 +24,7 @@ window.onload = function(){
         node=document.getElementById(id);
         node.parentNode.removeChild(node);
     }
+    
 /*
     var buttonReset = document.querySelector(".game-element");
     buttonReset.parentNode.removeChild(buttonReset);
